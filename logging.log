@@ -1,0 +1,33 @@
+2023-12-10T19:49:34.631+05:30  INFO 1644 --- [main] com.ApiXmlJson.ApiXMlJsonApplication     : Starting ApiXMlJsonApplication using Java 17.0.7 with PID 1644 (E:\workspace-spring-tool-suite-4-4.19.1.RELEASE\ApiXMl_Json\target\classes started by hp in E:\workspace-spring-tool-suite-4-4.19.1.RELEASE\ApiXMl_Json)
+2023-12-10T19:49:34.635+05:30  INFO 1644 --- [main] com.ApiXmlJson.ApiXMlJsonApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-10T19:49:35.584+05:30  INFO 1644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-10T19:49:35.673+05:30  INFO 1644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+2023-12-10T19:49:36.414+05:30  INFO 1644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-10T19:49:36.430+05:30  INFO 1644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-10T19:49:36.431+05:30  INFO 1644 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-10T19:49:36.613+05:30  INFO 1644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-10T19:49:36.614+05:30  INFO 1644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1889 ms
+2023-12-10T19:49:36.837+05:30  INFO 1644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-10T19:49:36.924+05:30  INFO 1644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-10T19:49:36.928+05:30  INFO 1644 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-10T19:49:37.401+05:30  INFO 1644 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-10T19:49:37.468+05:30  INFO 1644 --- [main] com.zaxxer.hikari.HikariDataSource       : Xml_Json - Starting...
+2023-12-10T19:49:37.946+05:30  INFO 1644 --- [main] com.zaxxer.hikari.pool.HikariPool        : Xml_Json - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d5d96b
+2023-12-10T19:49:37.950+05:30  INFO 1644 --- [main] com.zaxxer.hikari.HikariDataSource       : Xml_Json - Start completed.
+2023-12-10T19:49:38.032+05:30  WARN 1644 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL57Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-10T19:49:38.034+05:30  WARN 1644 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-10T19:49:39.425+05:30  INFO 1644 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-10T19:49:39.508+05:30  INFO 1644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10T19:49:40.267+05:30  WARN 1644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-10T19:49:40.764+05:30  INFO 1644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-10T19:49:40.781+05:30  INFO 1644 --- [main] com.ApiXmlJson.ApiXMlJsonApplication     : Started ApiXMlJsonApplication in 6.811 seconds (process running for 7.912)
+2023-12-10T19:49:52.940+05:30  INFO 1644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-10T19:49:52.940+05:30  INFO 1644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-10T19:49:52.942+05:30  INFO 1644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-10T19:49:53.001+05:30 DEBUG 1644 --- [http-nio-8080-exec-2] c.ApiXmlJson.Controler.EmployeControler  : Logger Started
+2023-12-10T19:50:30.345+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-10T19:50:30.364+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-10T19:50:30.366+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-10T19:50:30.380+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-10T19:50:30.383+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : Xml_Json - Shutdown initiated...
+2023-12-10T19:50:30.400+05:30  INFO 1644 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : Xml_Json - Shutdown completed.
